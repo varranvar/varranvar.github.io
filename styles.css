@@ -1,0 +1,30 @@
+body {
+    background-color: #111;
+    color: #eee;
+    margin: auto;
+    padding: 2em;
+    max-width: 60ch;
+    font: 1.1rem/1.6 sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #eee;
+}
+
+a:hover {
+    color: #0c775c;
+}
+
+::selection {
+    background-color: #0c775c;
+    color: #111;
+}
+
+h1 {
+    padding: 1rem 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -0.025em;
+}
