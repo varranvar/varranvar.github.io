@@ -22,18 +22,13 @@ a:hover {
     color: var(--accent);
 }
 
-h1 {
-    padding: 1rem 0;
-    font-size: 2rem;
-}
-
 h1, h2 {
+    font-weight: lighter;
     color: var(--gray);
 }
 
 ::selection {
-    color: var(--dark);
-    background-color: var(--accent);
+    color: var(--accent);
 }
 
 
