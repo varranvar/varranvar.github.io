@@ -1,35 +1,30 @@
 :root {
     --dark: #111;
     --light: #eee;
-    --gray:  #9f9f9f;
-    --green: #0c775c;
+    --gray: #9f9f9f;
+    --accent: #0c775c;
 }
 body {
-    background-color: var(--dark);
     color: var(--light);
+    background-color: var(--dark);
     margin: auto;
     padding: 2em;
     max-width: 60ch;
-    font-family: "Inter UI", sans-serif;
-   
+    font-family: "Inter UI", sans-serif;  
 }
 
 a {
+    color: var(--white);
     text-decoration: none;
-    color: var(--green);
-    font-size: 100%;
-    transition: font-size 0.5s;
-
+    font-weight: bold;
 }
 a:hover {
-    font-size: 90%;
-    transition: font-size 0.5s;
+    color: var(--accent);
 }
 
 h1 {
     padding: 1rem 0;
     font-size: 2rem;
-    line-height: 2rem;
 }
 
 h1, h2 {
@@ -37,7 +32,8 @@ h1, h2 {
 }
 
 ::selection {
-    background-color: var(--green);
     color: var(--dark);
+    background-color: var(--accent);
 }
+
 
