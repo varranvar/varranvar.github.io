@@ -1,12 +1,12 @@
 :root {
     --dark: #111;
-    --light: #eee;
+    --light: #fff;
     --gray: #9f9f9f;
     --accent: #0c775c;
 }
 body {
-    color: var(--light);
-    background-color: var(--dark);
+    color: var(--dark);
+    background-color: var(--light);
     margin: auto;
     padding: 2em;
     max-width: 60ch;
@@ -31,4 +31,6 @@ h1, h2 {
     color: var(--accent);
 }
 
-
+img {
+    width: 100%; 
+}
