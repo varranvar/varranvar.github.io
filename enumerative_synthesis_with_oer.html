@@ -7,78 +7,75 @@
   <link rel="stylesheet" href="styles.css?v=1.0">
 </head>
 
-<body>
-    <p>
-        <h1>Enumerative Synthesis with Observational Equivalence Reduction</h1>
-        
-        <h2>Contents</h2>
-        <a href="#abstract">Abstract</a><br>
-        <a href="enumerative_synthesis_with_oer/VarunVarma-Thesis.pdf" target="_blank">Thesis Paper</a><br>
-        <a href="https://github.com/varranvar/enumerative_synthesis_with_obe" target="_blank" rel="noreferrer noopener">Repository</a><br>
-        <a href="enumerative_synthesis_with_oer/VarunVarma-Presentation.pdf" target="_blank">Presentation Slides</a><br>
-        <a href="enumerative_synthesis_with_oer/Proposal-VarunVarma.pdf" target="_blank">Proposal</a><br>
-        <a href="enumerative_synthesis_with_oer/ExperimentalDesign-VarunVarma.pdf" target="_blank">Experimental Design</a><br>
-        <a href="#progress-reports">Progress Reports</a><br>
-        <a href="#article-summaries">Article Summaries</a><br>
-        
-        
-        
-        
-        
-        
-        <a href="#media">Media</a><br>
-        <a href="#about-me">About Me</a><br>
-        <a href="#about-school">About GS@IP</a><br>
+  <body>
+      <p>
+          <h1>Enumerative Synthesis with Observational Equivalence Reduction</h1>
+          
+          <h2>Contents</h2>
+          <a href="#abstract">Abstract</a><br>
+          <a href="enumerative_synthesis_with_oer/VarunVarma-Thesis.pdf" target="_blank">Thesis Paper</a><br>
+          <a href="https://github.com/varranvar/enumerative_synthesis_with_obe" target="_blank" rel="noreferrer noopener">Repository</a><br>
+          <a href="enumerative_synthesis_with_oer/VarunVarma-Presentation.pdf" target="_blank">Presentation Slides</a><br>
+          <a href="enumerative_synthesis_with_oer/Proposal-VarunVarma.pdf" target="_blank">Proposal</a><br>
+          <a href="enumerative_synthesis_with_oer/ExperimentalDesign-VarunVarma.pdf" target="_blank">Experimental Design</a><br>
+          <a href="#progress-reports">Progress Reports</a><br>
+          <a href="#article-summaries">Article Summaries</a><br>
+          
+          
+          
+          <a href="#media">Media</a><br>
+          <a href="#about-me">About Me</a><br>
+          <a href="#about-school">About GS@IP</a><br>
 
-        <h2 id="abstract">Abstract</h2>
-        <p>Program synthesis is the problem of generating a program from a given specification. Enumerative program synthesis is a powerful type of program synthesis that iterates through the search space of possible programs to find a solution. The main issue with enumerative program synthesis is that the search space explodes in size for harder synthesis problems. One way of optimizing enumerative synthesis is through equivalence reduction. Enumerative synthesis generates many complete programs that have the same outputs (for example, x + 0 and x). Equivalence reduction identities such equivalent programs and removes them from the search space, which drastically reduces the number of programs that need to be searched. This research project implemented an enumerative synthesis engine that uses observational equivalence reduction, a form of equivalence reduction that compares program outputs to determine equivalence. The synthesis engine takes a set of input-output integer pairs and searches for a program that has the same input-outputs. The synthesizer was tested on a set of nine synthesis problems from the book Hacker’s Delight with observational equivalence reduction enabled and disabled. On all benchmarks, the synthesizer completed synthesis far faster with observational equivalence reduction enabled. Furthermore, observational equivalence reduction gave more percentage efficiency gains the harder the synthesis problem was, which suggests that observational equivalence reduction can scale to be useful for large synthesis programs rather than just toy problems. This research shows that observational equivalence reduction can be used to optimize industry quality program synthesis engines, which will help accelerate and democratize programming.</p>
+          <h2 id="abstract">Abstract</h2>
+          <p>Program synthesis is the problem of generating a program from a given specification. Enumerative program synthesis is a powerful type of program synthesis that iterates through the search space of possible programs to find a solution. The main issue with enumerative program synthesis is that the search space explodes in size for harder synthesis problems. One way of optimizing enumerative synthesis is through equivalence reduction. Enumerative synthesis generates many complete programs that have the same outputs (for example, x + 0 and x). Equivalence reduction identities such equivalent programs and removes them from the search space, which drastically reduces the number of programs that need to be searched. This research project implemented an enumerative synthesis engine that uses observational equivalence reduction, a form of equivalence reduction that compares program outputs to determine equivalence. The synthesis engine takes a set of input-output integer pairs and searches for a program that has the same input-outputs. The synthesizer was tested on a set of nine synthesis problems from the book Hacker’s Delight with observational equivalence reduction enabled and disabled. On all benchmarks, the synthesizer completed synthesis far faster with observational equivalence reduction enabled. Furthermore, observational equivalence reduction gave more percentage efficiency gains the harder the synthesis problem was, which suggests that observational equivalence reduction can scale to be useful for large synthesis programs rather than just toy problems. This research shows that observational equivalence reduction can be used to optimize industry quality program synthesis engines, which will help accelerate and democratize programming.</p>
 
-        <h2 id="article-summaries">Article Summaries</h2>
-        <a href="enumerative_synthesis_with_oer/article-summaries/as1-VarunVarma.pdf" target="_blank">Article Summary 1</a><br>
-        <a href="enumerative_synthesis_with_oer/article-summaries/as2-VarunVarma.pdf" target="_blank">Article Summary 2</a><br>
-        <a href="enumerative_synthesis_with_oer/article-summaries/as3-VarunVarma.pdf" target="_blank">Article Summary 3</a><br>
-        <a href="enumerative_synthesis_with_oer/article-summaries/as4-VarunVarma.pdf" target="_blank">Article Summary 4</a><br>
-        <a href="enumerative_synthesis_with_oer/article-summaries/as5-VarunVarma.pdf" target="_blank">Article Summary 5</a>
-        
-        <h2 id="progress-reports">Progress Reports</h2>
-        <p>The research project changed drastically throughout the research process. One can view the changes through these progress reports that were made every two weeks.</p>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr1-VarunVarma.pdf"  target="_blank">Progress Report 1</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr2-VarunVarma.pdf"  target="_blank">Progress Report 2</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr3-VarunVarma.pdf"  target="_blank">Progress Report 3</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr4-VarunVarma.pdf"  target="_blank">Progress Report 4</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr5-VarunVarma.pdf"  target="_blank">Progress Report 5</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr6-VarunVarma.pdf"  target="_blank">Progress Report 6</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr7-VarunVarma.pdf"  target="_blank">Progress Report 7</a><br>
-	      <a href="enumerative_synthesis_with_oer/progress-reports/pr8-VarunVarma.pdf"  target="_blank">Progress Report 8</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr9-VarunVarma.pdf"  target="_blank">Progress Report 9</a><br>
-        <a href="enumerative_synthesis_with_oer/progress-reports/pr10-VarunVarma.pdf" target="_blank">Progress Report 10</a><br>
+          <h2 id="article-summaries">Article Summaries</h2>
+          <a href="enumerative_synthesis_with_oer/article-summaries/as1-VarunVarma.pdf" target="_blank">Article Summary 1</a><br>
+          <a href="enumerative_synthesis_with_oer/article-summaries/as2-VarunVarma.pdf" target="_blank">Article Summary 2</a><br>
+          <a href="enumerative_synthesis_with_oer/article-summaries/as3-VarunVarma.pdf" target="_blank">Article Summary 3</a><br>
+          <a href="enumerative_synthesis_with_oer/article-summaries/as4-VarunVarma.pdf" target="_blank">Article Summary 4</a><br>
+          <a href="enumerative_synthesis_with_oer/article-summaries/as5-VarunVarma.pdf" target="_blank">Article Summary 5</a>
+          
+          <h2 id="progress-reports">Progress Reports</h2>
+          <p>The research project changed drastically throughout the research process. One can view the changes through these progress reports that were made every two weeks.</p>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr1-VarunVarma.pdf"  target="_blank">Progress Report 1</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr2-VarunVarma.pdf"  target="_blank">Progress Report 2</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr3-VarunVarma.pdf"  target="_blank">Progress Report 3</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr4-VarunVarma.pdf"  target="_blank">Progress Report 4</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr5-VarunVarma.pdf"  target="_blank">Progress Report 5</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr6-VarunVarma.pdf"  target="_blank">Progress Report 6</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr7-VarunVarma.pdf"  target="_blank">Progress Report 7</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr8-VarunVarma.pdf"  target="_blank">Progress Report 8</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr9-VarunVarma.pdf"  target="_blank">Progress Report 9</a><br>
+          <a href="enumerative_synthesis_with_oer/progress-reports/pr10-VarunVarma.pdf" target="_blank">Progress Report 10</a><br>
 
 
-        <h2 id="media">Media</h2>
+          <h2 id="media">Media</h2>
 
-        <img src="enumerative_synthesis_with_oer/oe_diagram.png">
-        Figure 1. A diagram demonstrating observational equivalence.<br><br>
+          <img src="enumerative_synthesis_with_oer/oe_diagram.png">
+          Figure 1. A diagram demonstrating observational equivalence.<br><br>
 
-        <img src="enumerative_synthesis_with_oer/synthesizer-state-chart.svg">
-        Figure 2. A diagram outlining the enumerative synthesis engine.<br><br>
+          <img src="enumerative_synthesis_with_oer/synthesizer-state-chart.svg">
+          Figure 2. A diagram outlining the enumerative synthesis engine.<br><br>
 
-        <img src="enumerative_synthesis_with_oer/VarunVarma-Poster.png">
-        Figure 3. The synthesized programs from each of the benchmark problems.<br><br>
+          <img src="enumerative_synthesis_with_oer/solutions.png">
+          Figure 3. The synthesized programs from each of the benchmark problems.<br><br>
 
-        <img src="enumerative_synthesis_with_oer/VarunVarma-Poster.png">
-        Figure 4. The presentation poster for the research project.<br><br>
+          <img src="enumerative_synthesis_with_oer/VarunVarma-Poster.png">
+          Figure 4. The presentation poster for the research project.<br><br>
 
 
 
 
-        
+          
 
-        <h2 id="about-me">About Me</h2>
-        My name is Varun Varma. I am a junior at the Governor’s School At Innovation Park and Osbourn Park High School. I am interested in decentralization, programming language design, generative art, quantified self, and symbolic AI. I can be contacted at <a href="mailto: vvarma2@masonlive.gmu.edu">vvarma2@masonlive.gmu.edu</a>.
+          <h2 id="about-me">About Me</h2>
+          My name is Varun Varma. I am a junior at the Governor’s School At Innovation Park and Osbourn Park High School. I am interested in decentralization, programming language design, generative art, quantified self, and symbolic AI. I can be contacted at <a href="mailto: vvarma2@masonlive.gmu.edu">vvarma2@masonlive.gmu.edu</a>.
 
-        <h2 id="about-school">Governor’s School @ Innovation Park</h2>
-        The Governor’s School @ Innovation Park (GS@IP) is a partial-day Academic Year Governor’s School program with a focus on Science, Technology, Engineering and Mathematics (STEM) disciplines. GS@IP serves the school divisions of Manassas City, Manassas Park City, and Prince William County and is housed on George Mason University Prince William Campus.
-        More information can be found <a href="https://governors.pwcs.edu/" target="_blank" rel="noreferrer noopener">here</a>.
-    </p>
-</body>
+          <h2 id="about-school">Governor’s School @ Innovation Park</h2>
+          The Governor’s School @ Innovation Park (GS@IP) is a partial-day Academic Year Governor’s School program with a focus on Science, Technology, Engineering and Mathematics (STEM) disciplines. GS@IP serves the school divisions of Manassas City, Manassas Park City, and Prince William County and is housed on George Mason University Prince William Campus.
+          More information can be found <a href="https://governors.pwcs.edu/" target="_blank" rel="noreferrer noopener">here</a>.
+      </p>
+  </body>
 </html>
