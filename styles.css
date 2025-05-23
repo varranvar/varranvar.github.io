@@ -1,0 +1,45 @@
+:root {
+  --font-stack: "Averia Serif Libre", Georgia, serif;
+  --bg: rgb(54, 41, 26);
+  --fg: rgb(242, 212, 185);
+  --accent: rgba(222, 161, 86, 0.536);
+}
+
+html {
+  font-family: var(--font-stack);
+  color: var(--fg);
+  background-color: var(--bg);
+  font-size: 18px;
+}
+
+body {
+  width: 24rem;
+  margin: 1rem auto;
+}
+
+h1 {
+  color: var(--accent);
+}
+
+a {
+  box-sizing: border-box;
+  color: var(--bg);
+  background-color: var(--fg);
+  border: solid transparent;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--fg);
+  background-color: var(--accent);
+}
+
+img {
+    width: 24rem;
+    margin-bottom: 1rem;
+}
+
+::selection, ::-moz-selection {
+    background-color: var(--accent);
+}
