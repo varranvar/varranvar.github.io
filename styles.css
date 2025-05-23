@@ -1,8 +1,8 @@
 :root {
   --font-stack: "Averia Serif Libre", Georgia, serif;
-  --bg: rgb(54, 41, 26);
-  --fg: rgb(242, 212, 185);
-  --accent: rgba(222, 161, 86, 0.536);
+  --bg: rgb(7, 7, 23);
+  --fg: plum;
+  --accent: rgb(138, 46, 165);
 }
 
 html {
@@ -37,7 +37,6 @@ a:hover {
 
 img {
     width: 24rem;
-    margin-bottom: 1rem;
 }
 
 ::selection, ::-moz-selection {
