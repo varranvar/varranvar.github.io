@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How random are you?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>How random are you?</h1>
+
+    <p>Press left or right as randomly as possible.</p>
+
+    <div class="tape-container">
+      <div class="tape-label">YOU</div>
+      <div id="user-tape" class="tape"></div>
+    </div>
+    <div class="tape-container">
+      <div class="tape-label">PREDICTION</div>
+      <div id="prediction-tape" class="tape"></div>
+      <button id="prediction-view">Show</button>
+    </div>
+    <div>
+      You were predicted <span id="prediction-rate">0%</span> of the time.
+    </div>
+  </body>
+
+  <script src="model.js"></script>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,82 @@
+:root {
+  --font-stack: "Averia Serif Libre", Georgia, serif;
+  --bg: #ffffff;
+  --fg: rgb(14, 14, 14);
+  --accent: rgb(248, 54, 89);
+}
+
+html {
+  font-family: var(--font-stack);
+  color: var(--fg);
+  background-color: var(--bg);
+  font-size: 18px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.tape-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    gap: 1rem;
+}
+
+.tape-label {
+    min-width: 6.5rem;
+    font-weight: bold;
+}
+
+.tape {
+    display: flex;
+    gap: 0.2rem;
+}
+.cell {
+    background-color: transparent;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: solid var(--fg) 0.2rem;
+
+}
+
+.cell-filled {
+    background-color: var(--fg) !important;
+}
+
+.cell-invisible {
+    border-color: gray;
+}
+
+.cell-pred {
+    border-color: transparent;
+}
+
+#prediction-rate {
+    font-weight: bolder;
+
+}
+
+button {
+    width: 3.4rem;
+    font-family: var(--font-stack);
+    color: var(--fg);
+    background-color: var(--bg);
+    font-size: 18px;
+    border: solid 0.2rem var(--fg);
+    outline: none;
+    padding: 0.2rem;
+}
+
+button:hover {
+    color: var(--bg);
+    background-color: var(--fg);
+}
+
+::selection, ::-moz-selection {
+    color: var(--bg);
+    background-color: var(--fg);
+}

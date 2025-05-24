@@ -9,12 +9,13 @@ html {
   font-family: var(--font-stack);
   color: var(--fg);
   background-color: var(--bg);
-  font-size: 18px;
+  font-size: 24px;
 }
 
 body {
   width: 24rem;
   margin: 1rem auto;
+  padding: 1rem;
 }
 
 h1 {
@@ -33,6 +34,12 @@ a {
 a:hover {
   color: var(--fg);
   background-color: var(--accent);
+}
+
+a:focus {
+  background-color: var(--bg);
+
+  color: var(--fg);
 }
 
 img {
